@@ -40,7 +40,6 @@ In this project, our goal is using GAN to generate music from spectrum image.
     <audio controls="controls">
       <source type="audio/wav" src="demo/generate_wav/epoch_100.wav"></source>
     </audio>
-    </iframe>
     
     * [400 epoch](demo/generate_wav/epoch_400.wav ':include :type=code')
     
