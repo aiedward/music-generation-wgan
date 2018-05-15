@@ -35,20 +35,19 @@ In this project, our goal is using GAN to generate music from spectrum image.
 
 2.  The generated music wav from WGAN with different epochs
     
-    * 100 epoch
+    * [100 epoch](demo/generate_wav/epoch_100.wav ':include :type=code')
     
     <audio controls="controls">
       <source type="audio/wav" src="demo/generate_wav/epoch_100.wav"></source>
     </audio>
     
-    * 400 epoch
+    * [400 epoch](demo/generate_wav/epoch_400.wav ':include :type=code')
     
     <audio controls="controls">
       <source type="audio/wav" src="demo/generate_wav/epoch_400.wav"></source>
     </audio>
     
-    * 1000 epoch
-    
+    * [1000 epoch](demo/generate_wav/epoch_1000.wav ':include :type=code')
     
     <audio controls="controls">
       <source type="audio/wav" src="demo/generate_wav/epoch_1000.wav"></source>
@@ -56,25 +55,25 @@ In this project, our goal is using GAN to generate music from spectrum image.
 
 3. The generated music wav convert it back to midi format and post-process to remove noise 
 
-    *  DEMO 1
+    *  [DEMO 1](demo/generate_midi/epoch_400_demo_07.mp3 ':include :type=code')
     
     <audio controls="controls">
       <source type="audio/mp3" src="demo/generate_midi/epoch_400_demo_07.mp3"></source>
     </audio>
     
-    *  DEMO 2
+    *  [DEMO 2](demo/generate_midi/epoch_1000_demo_09.mp3 ':include :type=code')
     
     <audio controls="controls">
       <source type="audio/mp3" src="demo/generate_midi/epoch_1000_demo_09.mp3"></source>
     </audio>
     
-    *  DEMO 3
+    *  [DEMO 3](demo/generate_midi/epoch_1000_demo_13.mp3 ':include :type=code')
     
     <audio controls="controls">
       <source type="audio/mp3" src="demo/generate_midi/epoch_1000_demo_13.mp3"></source>
     </audio>
     
-    *  DEMO 4
+    *  [DEMO 4](demo/generate_midi/epoch_1000_demo_16.mp3 ':include :type=code')
     
     <audio controls="controls">
       <source type="audio/mp3" src="demo/generate_midi/epoch_1000_demo_16.mp3"></source>
